@@ -1,6 +1,7 @@
 # Práctica Calificada 1
 
 Evidencias de instalación de QGIS y visualización de capas ráster y vectoriales.
+
 Estudiante: Leonardo Sebastian Grimaldos Avla
 Codigo: 217046
 
