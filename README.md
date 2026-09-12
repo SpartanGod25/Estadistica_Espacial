@@ -1,6 +1,6 @@
 <div align="center">
 
-![Estadística Espacial](banner-estadistica-espacial.svg)
+![Estadística Espacial](banner-estadistica-espacial-v2.png)
 
 **Un recorrido aplicado desde la representación del territorio hasta el modelamiento espacial.**
 
