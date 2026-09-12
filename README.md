@@ -33,7 +33,7 @@ A lo largo del curso, la teoría estadística se conecta con tecnologías de inf
 | **Semestre académico** | 2026-II |
 | **Programa de estudios** | Ingeniería Estadística e Informática |
 | **Universidad** | Universidad Nacional del Altiplano - Puno |
-| **Docentes** | Fredy Gonzalo Copari Romero · Fred Torres Cruz |
+| **Docente** | Ing. Fred Torres Cruz |
 | **Estudiante** | Leonardo Sebastian Grimaldos Avila |
 
 ## ¿Qué estudia la Estadística Espacial?
