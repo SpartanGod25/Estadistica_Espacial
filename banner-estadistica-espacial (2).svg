@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="640" viewBox="0 0 1920 640" role="img" aria-labelledby="title desc">
+  <title id="title">Estadística Espacial</title>
+  <desc id="desc">Banner académico elegante sobre análisis geoespacial, patrones, dependencia y territorio.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06111f"/>
+      <stop offset="0.46" stop-color="#0b2940"/>
+      <stop offset="1" stop-color="#075461"/>
+    </linearGradient>
+    <radialGradient id="aura" cx="80%" cy="42%" r="57%">
+      <stop offset="0" stop-color="#22d3b6" stop-opacity="0.20"/>
+      <stop offset="0.55" stop-color="#0e7490" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#06111f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f3d98a"/>
+      <stop offset="0.5" stop-color="#dcb85b"/>
+      <stop offset="1" stop-color="#fff0b2"/>
+    </linearGradient>
+    <linearGradient id="land" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d3e57" stop-opacity="0.82"/>
+      <stop offset="1" stop-color="#0a6970" stop-opacity="0.38"/>
+    </linearGradient>
+    <pattern id="minorGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#b8e5e8" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    <pattern id="majorGrid" width="200" height="200" patternUnits="userSpaceOnUse">
+      <path d="M200 0H0V200" fill="none" stroke="#b8e5e8" stroke-opacity="0.075" stroke-width="1.4"/>
+    </pattern>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="20"/>
+    </filter>
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="170%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#000814" flood-opacity="0.42"/>
+    </filter>
+    <filter id="nodeGlow" x="-200%" y="-200%" width="500%" height="500%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frame"><rect x="18" y="18" width="1884" height="604" rx="28"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect x="18" y="18" width="1884" height="604" rx="28" fill="url(#bg)"/>
+    <rect x="18" y="18" width="1884" height="604" fill="url(#aura)"/>
+    <rect x="18" y="18" width="1884" height="604" fill="url(#minorGrid)"/>
+    <rect x="18" y="18" width="1884" height="604" fill="url(#majorGrid)"/>
+
+    <ellipse cx="1520" cy="310" rx="370" ry="270" fill="#18bca8" opacity="0.055" filter="url(#soft)"/>
+    <ellipse cx="1590" cy="305" rx="220" ry="185" fill="#f0c762" opacity="0.045" filter="url(#soft)"/>
+
+    <!-- Curvas de nivel -->
+    <g fill="none" stroke="#9ad8d8" stroke-opacity="0.13" stroke-width="2">
+      <path d="M1100 118c103-78 284-97 410-52 103 37 124 104 229 111 69 5 118-11 171-39"/>
+      <path d="M1072 162c116-73 258-72 361-41 112 34 141 110 244 128 91 16 158-18 233-2"/>
+      <path d="M1074 214c120-62 226-50 330-9 98 39 145 111 241 132 95 21 172-14 261 17"/>
+      <path d="M1083 274c90-36 188-38 276 3 94 44 143 121 237 148 105 30 200 1 308 43"/>
+      <path d="M1089 340c88-26 175-10 245 31 76 44 118 105 204 136 104 37 209 15 331 67"/>
+      <path d="M1206 78c-26 67-18 139 24 190 43 53 100 76 124 141 20 53 7 112-6 170"/>
+      <path d="M1810 92c-71 66-96 121-89 186 6 55 39 100 34 154-4 49-36 91-72 142"/>
+    </g>
+
+    <!-- Fragmento territorial abstracto -->
+    <path d="M1403 83l99 31 55-23 82 48 97-8 56 73-35 69 46 74-39 56-5 82-82 52-69-23-70 49-85-28-55 29-89-43-13-74-76-41 33-79-39-69 61-55-4-74 72-46 40-70z"
+          fill="url(#land)" stroke="#70d8d2" stroke-opacity="0.48" stroke-width="2.5"/>
+    <g fill="none" stroke="#82d9d5" stroke-opacity="0.18" stroke-width="1.5">
+      <path d="M1403 83l48 90-36 71 45 76-32 89 44 126"/>
+      <path d="M1502 114l-51 59 67 62-58 85 89 62-77 153"/>
+      <path d="M1557 91l-39 144 92 36-61 111 59 132"/>
+      <path d="M1639 139l-29 132 94 37-65 84 38 145"/>
+      <path d="M1736 131l-32 177 99 39-99 77 5 61"/>
+      <path d="M1316 205l99 39 103-9 92 36 94 37"/>
+      <path d="M1273 327l187-7 89 62 90 10 65 32"/>
+      <path d="M1274 406l154 3 124 80 125 48"/>
+    </g>
+
+    <!-- Red de dependencia espacial -->
+    <g fill="none" stroke-linecap="round">
+      <g stroke="#64d8cf" stroke-opacity="0.36" stroke-width="2">
+        <path d="M1344 180L1450 172L1517 236L1608 270L1704 307L1740 403"/>
+        <path d="M1277 328L1410 283L1460 321L1548 382L1638 392L1700 481"/>
+        <path d="M1328 438L1428 409L1510 480L1600 518L1675 464"/>
+        <path d="M1450 172L1410 283L1428 409L1510 480"/>
+        <path d="M1517 236L1460 321L1548 382L1510 480"/>
+        <path d="M1608 270L1548 382L1638 392L1600 518"/>
+        <path d="M1704 307L1638 392L1675 464L1740 403"/>
+      </g>
+      <g stroke="#e4c160" stroke-opacity="0.62" stroke-width="2.6">
+        <path d="M1450 172L1517 236L1460 321L1548 382"/>
+        <path d="M1410 283L1460 321L1428 409L1510 480"/>
+        <path d="M1548 382L1638 392L1675 464"/>
+      </g>
+    </g>
+    <g filter="url(#nodeGlow)">
+      <g fill="#63ded2">
+        <circle cx="1344" cy="180" r="5"/><circle cx="1277" cy="328" r="5"/><circle cx="1328" cy="438" r="5"/>
+        <circle cx="1704" cy="307" r="5"/><circle cx="1740" cy="403" r="5"/><circle cx="1600" cy="518" r="5"/>
+      </g>
+      <g fill="#f2cf72" stroke="#fff2b8" stroke-width="1.5">
+        <circle cx="1450" cy="172" r="7"/><circle cx="1517" cy="236" r="7"/><circle cx="1410" cy="283" r="7"/>
+        <circle cx="1460" cy="321" r="8"/><circle cx="1548" cy="382" r="9"/><circle cx="1428" cy="409" r="7"/>
+        <circle cx="1510" cy="480" r="8"/><circle cx="1608" cy="270" r="7"/><circle cx="1638" cy="392" r="8"/>
+        <circle cx="1675" cy="464" r="7"/>
+      </g>
+    </g>
+
+    <!-- Anotaciones cartográficas -->
+    <g font-family="Segoe UI, Arial, sans-serif" fill="#b9dfe1" opacity="0.74">
+      <text x="1288" y="159" font-size="18" letter-spacing="1">(-15.84, -70.02)</text>
+      <text x="1570" y="350" font-size="19" fill="#f0d88d">I = 0.63</text>
+      <text x="1718" y="292" font-size="18">Wᵢⱼ</text>
+    </g>
+    <g transform="translate(1802 510)" fill="none" stroke="#b9dfe1" stroke-opacity="0.72">
+      <circle r="42" stroke-width="1.5"/><path d="M0-34L8 0 0 34-8 0Z" fill="#e7cb76" stroke="none"/>
+      <path d="M-34 0H34M0-34V34" stroke-width="1"/><text x="-7" y="-50" fill="#d7edef" stroke="none" font-family="Segoe UI, Arial" font-size="18">N</text>
+    </g>
+
+    <!-- Área editorial -->
+    <g font-family="Segoe UI, Arial, sans-serif">
+      <rect x="128" y="102" width="402" height="42" rx="21" fill="#103a50" stroke="#56c9c1" stroke-opacity="0.46"/>
+      <circle cx="155" cy="123" r="5" fill="#e1be62"/>
+      <text x="174" y="130" fill="#cfeaed" font-size="17" font-weight="600" letter-spacing="1.35">UNIVERSIDAD NACIONAL DEL ALTIPLANO</text>
+
+      <text x="126" y="262" fill="#f7fbfc" font-size="88" font-weight="700" letter-spacing="-2" filter="url(#shadow)">Estadística</text>
+      <text x="126" y="344" fill="url(#gold)" font-size="88" font-weight="700" letter-spacing="-2" filter="url(#shadow)">Espacial</text>
+      <rect x="128" y="377" width="100" height="4" rx="2" fill="#e2bd5e"/>
+      <rect x="240" y="377" width="680" height="1" fill="#9bd8d6" opacity="0.35"/>
+      <text x="128" y="423" fill="#cbe2e5" font-size="27" font-weight="400">Patrones, dependencia y modelos para comprender el territorio</text>
+
+      <g transform="translate(128 467)" font-size="17" font-weight="600" letter-spacing="0.7">
+        <g><rect width="92" height="40" rx="20" fill="#123d52" stroke="#62cbc4" stroke-opacity="0.38"/><text x="26" y="26" fill="#daf0f0">QGIS</text></g>
+        <g transform="translate(105)"><rect width="104" height="40" rx="20" fill="#123d52" stroke="#62cbc4" stroke-opacity="0.38"/><text x="23" y="26" fill="#daf0f0">GeoDa</text></g>
+        <g transform="translate(222)"><rect width="116" height="40" rx="20" fill="#123d52" stroke="#62cbc4" stroke-opacity="0.38"/><text x="21" y="26" fill="#daf0f0">PostGIS</text></g>
+        <g transform="translate(351)"><rect width="143" height="40" rx="20" fill="#123d52" stroke="#62cbc4" stroke-opacity="0.38"/><text x="24" y="26" fill="#daf0f0">R · Python</text></g>
+      </g>
+
+      <text x="128" y="568" fill="#8eb9bd" font-size="17" letter-spacing="0.7">EST334 · Ingeniería Estadística e Informática · Análisis geoespacial aplicado</text>
+      <text x="1040" y="568" fill="#e5cb7d" font-size="17" font-weight="700" letter-spacing="1.8">2026-II</text>
+    </g>
+  </g>
+
+  <rect x="18" y="18" width="1884" height="604" rx="28" fill="none" stroke="#a9e0df" stroke-opacity="0.20" stroke-width="2"/>
+</svg>
